@@ -828,57 +828,57 @@ var a4=(document.getElementById("subject33").value);
 if(a4=='O'){
         a4=10;
     }
-    else if(a3=='A+'){
+    else if(a4=='A+'){
         a4=9;
     }
-    else if(a3=='A'){
+    else if(a4=='A'){
         a4=8;
     }
-    else if(a3=='B+'){
+    else if(a4=='B+'){
         a4=7;
     }
-    else if(a3=='B'){
+    else if(a4=='B'){
         a4=6;
     }
-    else if(a3=='RA-F'){
+    else if(a4=='RA-F'){
         a4=0;
         tot5 = tot5 - 4;
     }
 if(b4=='O'){
         b4=10;
     }
-    else if(b3=='A+'){
+    else if(b4=='A+'){
         b4=9;
     }
-    else if(b3=='A'){
+    else if(b4=='A'){
         b4=8;
     }
-    else if(b3=='B+'){
+    else if(b4=='B+'){
         b4=7;
     }
-    else if(b3=='B'){
+    else if(b4=='B'){
         b4=6;
     }
-    else if(b3=='RA-F'){
+    else if(b4=='RA-F'){
         b4=0;
         tot5 = tot5 - 3;
     }
 if(c4=='O'){
         c4=10;
     }
-    else if(c3=='A+'){
+    else if(c4=='A+'){
         c4=9;
     }
-    else if(c3=='A'){
+    else if(c4=='A'){
         c4=8;
     }
-    else if(c3=='B+'){
+    else if(c4=='B+'){
         c4=7;
     }
-    else if(c3=='B'){
+    else if(c4=='B'){
         c4=6;
     }
-    else if(c3=='RA-F'){
+    else if(c4=='RA-F'){
         c4=0;
         tot5 = tot5 - 3;
     }
@@ -888,10 +888,10 @@ if(d4=='O'){
     else if(d4=='A+'){
         d4=9;
     }
-    else if(d3=='A'){
+    else if(d4=='A'){
         d4=8;
     }
-    else if(d3=='B+'){
+    else if(d4=='B+'){
         d4=7;
     }
     else if(d4=='B'){
@@ -937,7 +937,7 @@ if(f4=='O'){
     }
     else if(f4=='RA-F'){
         f4=0;
-        tot4 = tot4 - 3;
+        tot5 = tot5 - 3;
     }
 if(g4=='O'){
         g4=10;
@@ -946,7 +946,7 @@ if(g4=='O'){
         g4=9;
     }
     else if(g4=='A'){
-        g3=8;
+        g4=8;
     }
     else if(g4=='B+'){
         g4=7;
@@ -1005,7 +1005,6 @@ if(i4=='O'){
 
 
 
-
     var cgpa5;
     var sgpa5;
     var credit5;
@@ -1016,9 +1015,9 @@ if(i4=='O'){
     cgpa5 = sgpa5/credit5;
     
     
-    let out4 = cgpa5.toFixed(3);
+    let out5 = cgpa5.toFixed(3);
     
-    document.getElementById("cgpa4").innerHTML="CGPA : "+ out4;
+    document.getElementById("cgpa4").innerHTML="CGPA : "+ out5;
     
     
     
@@ -1398,7 +1397,7 @@ else if(g6=='A+'){
     g6=9;
 }
 else if(g6=='A'){
-    g3=8;
+    g6=8;
 }
 else if(g6=='B+'){
     g6=7;
@@ -2160,4 +2159,3 @@ $("document").ready(function(){
 
 
 })
-
