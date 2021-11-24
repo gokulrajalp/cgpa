@@ -25,6 +25,7 @@ h1{
     text-align: left;
     line-height: 35px;
 }
+
 .one select{
     width: 100px;
     display: inline-block;
@@ -79,24 +80,10 @@ h1{
 
 .eighth{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: fit-content;
 }
 
-#cgpa0{
-    color: rgb(255, 81, 0);
-}
-
-
-#cgpa1{
-    color: rgb(255, 81, 0);
-}
-
-
-#cgpa2{
-    color: rgb(255, 81, 0);
-}
-
-
-#cgpa3{
+#cgpa0,#cgpa1,#cgpa2,#cgpa3,#cgpa4,#cgpa6,#cgpa7,#cgpa8{
     color: rgb(255, 81, 0);
 }
 
