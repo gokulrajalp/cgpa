@@ -1182,7 +1182,7 @@ else if(g5=='A+'){
     g5=9;
 }
 else if(g5=='A'){
-    g3=8;
+    g5=8;
 }
 else if(g5=='B+'){
     g5=7;
