@@ -1,3 +1,4 @@
+// window.location.replace("https://gokulrajalp.github.io/cgpaV2/");
 function cgpa ()	{
     var a=(document.getElementById("subject1").value);
     b=(document.getElementById("subject2").value);
