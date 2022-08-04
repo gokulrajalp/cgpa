@@ -1,3 +1,13 @@
+let boolean = confirm("New Version is available, Click OK to continue or Click Cancel to stay here");
+
+if(boolean){
+    location.replace("https://gokulrajalp.github.io/cgpaV2");
+}
+
+function replace (){
+    location.replace("https://gokulrajalp.github.io/cgpaV2");
+};
+
 function cgpa ()	{
     var a=(document.getElementById("subject1").value);
     b=(document.getElementById("subject2").value);
